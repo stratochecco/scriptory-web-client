@@ -66,9 +66,5 @@ typings/
 # DS store
 .DS_Store
 
-# dist files
-dist
-dist/manifest.json
-
 # package-lock
 package-lock.json
