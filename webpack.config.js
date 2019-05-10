@@ -27,7 +27,7 @@ module.exports = (env) => {
         output: {
             path: path.resolve(__dirname, './dist'),
             filename: '[name].[contenthash:6]' + (prod ? '.min' : '') + '.js',
-            publicPath: '/dist/'
+            publicPath: 'https://cdn.jsdelivr.net/gh/stratochecco/scriptory-web-client/dist/'
         },
         optimization: {
             minimizer: [
