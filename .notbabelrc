@@ -1,0 +1,20 @@
+{
+  "presets": [
+	[
+	  "@babel/preset-env",
+	  {
+		"useBuiltIns": "usage",
+		"debug": true,
+		"targets": {
+		  "browsers": "> 1%, not dead"
+		}
+	  }
+	]
+  ],
+  "plugins": [
+	["@babel/plugin-syntax-dynamic-import"],
+	["@babel/plugin-transform-spread"],
+	["@babel/plugin-proposal-object-rest-spread"],
+	["@babel/plugin-transform-runtime"]
+  ]
+}

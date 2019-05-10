@@ -1,0 +1,28 @@
+@import "_config/variables";
+
+@import "_global/bootstrap-custom";
+
+body {
+  background-color: $BackgroundColor;
+  color: $LightColor;
+  font-family: "Avenir Next", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+hr {
+  border-top: 1px solid rgba($LightColor, 0.4);
+}
+
+.custom-vue-notification {
+  .notification-title {
+	font-size: 15px;
+  }
+
+  .notification-content {
+	font-size: 14px;
+  }
+
+  &.warn {
+	color: $DarkColor;
+  }
+}

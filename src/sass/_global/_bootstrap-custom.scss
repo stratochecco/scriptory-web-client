@@ -1,0 +1,57 @@
+@import "../_config/variables";
+
+// Theme
+
+$theme-colors: (
+		"primary": $PrimaryColor,
+		"secondary": $SecondaryColor,
+		"dark": $DarkColor,
+		"light": $LightColor
+);
+
+// Texts
+
+$yiq-text-dark: $DarkColor;
+$yiq-text-light: $LightColor;
+
+// Links
+
+$link-color: $LightColor;
+
+// Cards
+
+$card-cap-bg: rgba(#000, .14);
+$card-bg: $SecondaryColor;
+
+// List groups
+
+$list-group-bg: lighten($SecondaryColor, 5%);
+$list-group-hover-bg: lighten($SecondaryColor, 10%);
+$list-group-action-color: darken($LightColor, 5%);
+$list-group-action-hover-color: $list-group-action-color;
+$list-group-action-active-bg: lighten($SecondaryColor, 15%);
+$list-group-action-active-color: darken($LightColor, 10%);
+
+  // Inputs
+
+$input-bg: $SecondaryColor;
+$input-color: $LightColor;
+$input-group-addon-bg: darken($SecondaryColor, 5%);
+
+// Modals
+
+$modal-content-bg: $SecondaryColor;
+
+// Tables
+
+$table-color: $LightColor;
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+.navbar-toggler-icon {
+  color: $LightColor;
+}
+
+.spinner-border {
+  vertical-align: middle;
+}
